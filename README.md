@@ -1,11 +1,13 @@
-# yuncms-attention
+# yii2-attention
 
-The attention module for yuncms.
+适用于Yii2的关注模块
 
-[![Latest Stable Version](https://poser.pugx.org/yuncms/yuncms-attention/v/stable.png)](https://packagist.org/packages/yuncms/yuncms-attention)
-[![Total Downloads](https://poser.pugx.org/yuncms/yuncms-attention/downloads.png)](https://packagist.org/packages/yuncms/yuncms-attention)
-[![Build Status](https://img.shields.io/travis/yuncms/yuncms-attention.svg)](http://travis-ci.org/yuncms/yuncms-attention)
-[![License](https://poser.pugx.org/yuncms/yuncms-attention/license.svg)](https://packagist.org/packages/yuncms/yuncms-attention)
+[![Latest Stable Version](https://poser.pugx.org/yuncms/yii2-attention/v/stable.png)](https://packagist.org/packages/yuncms/yii2-attention)
+[![Total Downloads](https://poser.pugx.org/yuncms/yii2-attention/downloads.png)](https://packagist.org/packages/yuncms/yii2-attention)
+[![Reference Status](https://www.versioneye.com/php/yuncms:yii2-attention/reference_badge.svg)](https://www.versioneye.com/php/yuncms:yii2-attention/references)
+[![Build Status](https://img.shields.io/travis/yiisoft/yii2-attention.svg)](http://travis-ci.org/yuncms/yii2-attention)
+[![Dependency Status](https://www.versioneye.com/php/yuncms:yii2-attention/dev-master/badge.png)](https://www.versioneye.com/php/yuncms:yii2-attention/dev-master)
+[![License](https://poser.pugx.org/yuncms/yii2-attention/license.svg)](https://packagist.org/packages/yuncms/yii2-attention)
 
 ## Installation
 
@@ -14,13 +16,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```bash
-$ composer require yuncms/yuncms-attention
+$ composer require yuncms/yii2-attention
 ```
 
 or add
 
 ```
-"yuncms/yuncms-attention": "~2.0.0"
+"yuncms/yii2-attention": "~1.0.0"
 ```
 
 to the `require` section of your `composer.json` file.
