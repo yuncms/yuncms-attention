@@ -87,7 +87,7 @@ class AttentionController extends Controller
         if ($attention) {
             $attention->delete();
             if ($model == 'user') {
-                $source->extend->updateCounters(['followers' => -1]);
+                $source->extra->updateCounters(['followers' => -1]);
             } else {
                 $source->updateCounters(['followers' => -1]);
             }
@@ -110,7 +110,7 @@ class AttentionController extends Controller
                     $source->updateCounters(['followers' => 1]);
                     break;
                 case 'user':
-                    $source->extend->updateCounters(['followers' => 1]);
+                    $source->extra->updateCounters(['followers' => 1]);
                     notify(Yii::$app->user->id, $modelId, 'follow_user');
                     break;
                 default:
