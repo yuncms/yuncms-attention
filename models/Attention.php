@@ -4,10 +4,6 @@ namespace yuncms\attention\models;
 
 use Yii;
 use yii\db\ActiveRecord;
-use yii\db\Connection;
-use yii\helpers\ArrayHelper;
-use yii\caching\DbDependency;
-use yii\caching\ChainedDependency;
 use yii\behaviors\TimestampBehavior;
 use yii\behaviors\BlameableBehavior;
 use yuncms\user\models\User;
@@ -90,6 +86,12 @@ class Attention extends ActiveRecord
     {
         return new AttentionQuery(get_called_class());
     }
+
+//    public function beforeValidate()
+//    {
+//        $this->user_id = Yii::$app->user->getId();
+//        return parent::beforeValidate();
+//    }
 
     /**
      * 创建实例
