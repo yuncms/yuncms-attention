@@ -29,12 +29,6 @@
         "class": "yii\\i18n\\PhpMessageSource",
         "sourceLanguage": "en-US",
         "basePath": "@yuncms/attention/messages"
-      },
-      "migrationNamespace": "yuncms\\attention\\migrations",
-      "backend": {
-      },
-      "frontend": {
-        "class": "yuncms\\attention\\frontend\\Module"
       }
     },
     "branch-alias": {
